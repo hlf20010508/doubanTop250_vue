@@ -14,6 +14,8 @@ npm run dev
 # build for production with minification
 npm run build
 
+此处已更改过build，需要配合flask文件夹，自动将build的dist更新到flask
+
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
