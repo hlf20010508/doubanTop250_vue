@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js && cp -r dist/index.html ../flask/templates/ && rm -r ../flask/static && cp -r dist/static ../flask"
+    "build": "node build/build.js && cp -r dist/index.html ../doubanTop250_flask/templates/ && rm -r ../doubanTop250_flask/static && cp -r dist/static ../doubanTop250_flask"
   },
   "dependencies": {
     "axios": "^0.27.2",
