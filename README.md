@@ -1,23 +1,31 @@
-# vue
+注意！
 
-> A Vue.js project
+本项目位于项目doubanTop250 https://github.com/hlf20010508/doubanTop250.git 内
 
-## Build Setup
+若使用vscode等调试运行，请保证打开的文件夹为本项目文件夹，而非doubanTop250
 
-``` bash
-# install dependencies
+否则会出现路径错误
+
+建议在命令行中运行
+
+<br/>
+
+
+安装依赖
+```
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-此处已更改过build，需要配合flask文件夹，自动将build的dist更新到flask
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+在开发环境下运行 localhost:8080
+```
+npm run dev
+```
+
+用webpack将项目打包成html和js交给后端运行
+
+此处已更改过package.json第10行build，会自动将build的dist更新到doubanTop250_flask文件夹中
+
+需要doubanTop250_flask项目https://github.com/hlf20010508/doubanTop250_flask.git
+```
+npm run build
+```
